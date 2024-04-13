@@ -1,5 +1,4 @@
-# eduardo-garcia-0424
-eduardo-garcia-0424
+# Edro08/GoAlgorithmShuntingYard
 
 ### Endpoints
 #### Health
@@ -11,7 +10,7 @@ curl --request GET \
 #### EnvExpMath
 ```shell
 curl --request POST \
-  --url http://localhost:90/eduardo-garcia-0424/v1/envExpMath \
+  --url http://localhost:90/GoAlgorithmShuntingYard/v1/envExpMath \
   --header 'Content-Type: application/json' \
   --data '{
 	"infix": "3 + 4 * 2 / 1 - 5"

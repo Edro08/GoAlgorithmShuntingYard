@@ -1,0 +1,16 @@
+server:
+  port: 90
+  name: GoAlgorithmShuntingYard
+
+service:
+  endpoints:
+    envExpMath: "/GoAlgorithmShuntingYard/v1/envExpMath"
+
+config:
+  envExpMath:
+    precedence:
+      "+": 2
+      "-": 2
+      "*": 3
+      "/": 3
+
